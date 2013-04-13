@@ -12,8 +12,13 @@ def deploy():
     with cd(code_dir):
         run("git pull")
     run_composer()
+    update_permissions()
 
 def run_composer():
     with cd(code_dir):
         run("curl -sS https://getcomposer.org/installer | php")
         run("php composer.phar install")
+
+def update_permissions():
+    with cd(code_dir):
+        run("chmod 777 -R app/storage")
