@@ -1,13 +1,7 @@
-## Laravel 4.x
+# Deployment of a Laravel app
 
-### A Framework For Web Artisans
-
-[Official Documentation](http://four.laravel.com) (Under Active Development)
-
-### Contributing To Laravel
-
-**All issues and pull requests should be filed on the [laravel/framework](http://github.com/laravel/framework) repository.**
-
-### License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)
+At the moment, this repo is just me playing around and trying to figure out how
+to deploy Laravel with Python and Fabric. Locally, I'm running Laravel on a
+[virtual Ubuntu machine](https://github.com/ShawnMcCool/vagrant-chef), with
+[Fabric installed](https://github.com/petersuhm/laravel-deployment/wiki/Installing-Fabric-on-Ubuntu-12.10)
+.
